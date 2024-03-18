@@ -1,0 +1,60 @@
+/* Réinitialisation de quelques styles par défaut pour avoir une base propre */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh; /* Utilise toute la hauteur de la fenêtre */
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.carussel {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 20px;
+}
+
+.carussel .image {
+    flex: 0 0 auto;
+    width: 100%; /* Adapter selon la taille souhaitée */
+    height: auto;
+    max-height: 60vh; /* Ajuste la hauteur maximale des images */
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style supplémentaire pour le défilement du carrousel */
+.carussel::-webkit-scrollbar {
+    display: none; /* Cache la barre de défilement pour un look plus épuré */
+}
+
+/* Assure que le carrousel fonctionne aussi sans scrollbar visible */
+.carussel {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
