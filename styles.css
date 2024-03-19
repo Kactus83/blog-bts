@@ -26,20 +26,44 @@ body, html {
 }
 
 .carussel {
-    display: flex;
-    overflow-x: auto;
-    gap: 10px;
-    padding: 20px;
+    position: relative;
+    max-width: 600px; /* Ajustez à la largeur désirée */
+    margin: auto;
+    overflow: hidden;
 }
 
-.carussel .image {
-    flex: 0 0 auto;
-    width: 100%; /* Adapter selon la taille souhaitée */
-    height: auto;
-    max-height: 60vh; /* Ajuste la hauteur maximale des images */
-    border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+.images img {
+    width: 100%;
+    display: none; /* Cache toutes les images par défaut */
+    transition: opacity 0.5s ease-in-out;
 }
+
+.carussel-img {
+    display: bloc;
+    width: 50px;
+    height: auto;   
+}
+
+.images img.active {
+    display: block; /* Affiche seulement l'image active */
+    opacity: 1;
+}
+
+#prevBtn, #nextBtn {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    z-index: 100;
+}
+
+#prevBtn { left: 0; }
+#nextBtn { right: 0; }
+
 
 .footer {
     background-color: #333;
