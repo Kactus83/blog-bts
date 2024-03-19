@@ -1,40 +1,62 @@
 .article {
     display: flex;
     margin: 1%;
-    background-color: aqua;
+    background-image: url(/home/moi/Downloads/blog-bts/assets/images/1.jpg);
+    background-size: cover;
     border-style: dashed;
+    border-width: 1px;
 }
 
 .left {
     display: flex;
     margin: 1%;
     width: 50%;
-    background-color: rgb(253, 44, 45);
+    border-color: rgb(253, 44, 45);
     border-style: dashed;
+    border-width: 1px;
+    border-width: 0.5%;
     flex-direction: column;
+    color: red;
+
 }
 
 .right {
     display: flex;
     margin: 1%;
     width: 50%;
-    background-color: blueviolet;
+    border: blueviolet;
     border-style: dashed;
+    border-width: 1px;
     flex-direction: column;
+    color: red;
 }
 
 .up {
- 
     margin: 1%;
     height: 20%;
-    background-color: cornsilk;
+    border-color: rgb(0, 0, 0);
     border-style: dashed;
+    border-width: 1px;
+    color: red;
 }
 
 .down {
-
     margin: 1%;
     height: 75%;
-    background-color: chartreuse;
+    border-color: chartreuse;
     border-style: dashed;
+    border-width: 1px;
+    color: red;
+}
+
+a {
+    color: rgb(255, 0, 0);
+    background-color: rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    font-size: 40px;
+    background-image: url(/home/moi/Downloads/blog-bts/assets/images/1.jpg);;
+}
+
+a:hover {
+    scale: 150%;
 }
