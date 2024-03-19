@@ -1,0 +1,95 @@
+{
+    "articles": [
+      {
+        "id": 1,
+        "titre": "Le développement Web en 2024",
+        "auteur": "Jean Dupont",
+        "date": "2024-03-19",
+        "categorie": "Développement Web",
+        "photo": "url-de-la-photo-article-1.jpg",
+        "contenu": "Contenu de l'article 1..."
+      },
+      {
+        "id": 2,
+        "titre": "Introduction à CSS Grid",
+        "auteur": "Marie Curie",
+        "date": "2024-02-15",
+        "categorie": "CSS",
+        "photo": "url-de-la-photo-article-2.jpg",
+        "contenu": "Contenu de l'article 2..."
+      },
+      {
+        "id": 3,
+        "titre": "Pourquoi JavaScript est essentiel",
+        "auteur": "Alex Tremblay",
+        "date": "2024-01-10",
+        "categorie": "JavaScript",
+        "photo": "url-de-la-photo-article-3.jpg",
+        "contenu": "Contenu de l'article 3..."
+      },
+      {
+        "id": 4,
+        "titre": "Les fondamentaux de React",
+        "auteur": "Sarah Lavoie",
+        "date": "2024-03-05",
+        "categorie": "Frameworks",
+        "photo": "url-de-la-photo-article-4.jpg",
+        "contenu": "Contenu de l'article 4..."
+      },
+      {
+        "id": 5,
+        "titre": "Créer une API REST avec Node.js",
+        "auteur": "Lucas Martin",
+        "date": "2024-02-20",
+        "categorie": "Backend",
+        "photo": "url-de-la-photo-article-5.jpg",
+        "contenu": "Contenu de l'article 5..."
+      },
+      {
+        "id": 6,
+        "titre": "Sécurité dans les applications web modernes",
+        "auteur": "Emma Leroy",
+        "date": "2024-01-25",
+        "categorie": "Sécurité",
+        "photo": "url-de-la-photo-article-6.jpg",
+        "contenu": "Contenu de l'article 6..."
+      },
+      {
+        "id": 7,
+        "titre": "Vue.js vs React : quel framework choisir ?",
+        "auteur": "Maxime Giroux",
+        "date": "2024-03-12",
+        "categorie": "Comparaison",
+        "photo": "url-de-la-photo-article-7.jpg",
+        "contenu": "Contenu de l'article 7..."
+      },
+      {
+        "id": 8,
+        "titre": "L'importance de TypeScript dans vos projets",
+        "auteur": "Clara Fontaine",
+        "date": "2024-02-28",
+        "categorie": "Typescript",
+        "photo": "url-de-la-photo-article-8.jpg",
+        "contenu": "Contenu de l'article 8..."
+      },
+      {
+        "id": 9,
+        "titre": "Optimisation des performances web",
+        "auteur": "Simon Petit",
+        "date": "2024-01-15",
+        "categorie": "Performance",
+        "photo": "url-de-la-photo-article-9.jpg",
+        "contenu": "Contenu de l'article 9..."
+      },
+      {
+        "id": 10,
+        "titre": "Accessibilité web : meilleures pratiques",
+        "auteur": "Louise Dubois",
+        "date": "2024-03-22",
+        "categorie": "Accessibilité",
+        "photo": "url-de-la-photo-article-10.jpg",
+        "contenu": "Contenu de l'article 10..."
+      }
+    ]
+  }
+  
