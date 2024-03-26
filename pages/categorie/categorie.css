@@ -1,6 +1,7 @@
 .parent {
+    background-color: wheat;
     display: flex;
-    height: 100%;
+    height: 100vh;
     width: auto;
     flex-direction: row;
     align-items: center;
@@ -32,6 +33,22 @@
     min-width: 48%;
     margin: 1%;
     height: auto;
+}
+
+.box1:hover {
+    background-color: aquamarine;
+}
+
+.box2:hover {
+    background-color:chocolate;
+}
+
+.box3:hover {
+    background-color:deeppink;
+}
+
+.box4:hover {
+    background-color:blueviolet;
 }
 
 .child {
@@ -69,7 +86,15 @@ body {
 }
 
 .panda {
+    position: fixed;
+    top: 50px;
+    left: 50px;
     border: none;
-    background-color: floralwhite;
-    color: floralwhite;
+    background-color: transparent;
+    color: transparent;
+}
+
+.panda:hover {
+    border: none;
+    color: violet;
 }
